@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio — photography, design, video and digital creativity.">
+  <title>Tawhid — Visual Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="cursor-dot"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top"><i class="fa fa-italic" aria-hidden="true"></i>TAWHID</i></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#photography">Photography</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="menu-contact" href="mailto:hello@example.com">Let's talk ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-topline">
+        <span>Portfolio / 2026</span>
+        <span>Chattogram, Bangladesh</span>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I'm Tawhid</p>
+          <h1>I make <span id="role">visuals</span><br>with curiosity.</h1>
+          <p class="hero-description">
+            Photographer, designer and visual creator exploring ideas through
+            images, layouts, motion and the web.
+          </p>
+          <a class="circle-link" href="#work">Explore<br>work ↓</a>
+        </div>
+
+        <div class="hero-image-wrap">
+          <!-- Replace this image with your own photo later -->
+          <img id="heroImage" src="assets/profile3.jpeg" alt="Portrait">
+          <div class="image-label">Md. Tawhidul Islam </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+
+      <div>
+        <h2>I like turning simple ideas into <em>visual experiences.</em></h2>
+        <p class="large-text">
+          My work moves between graphic design, photography, video and digital
+          experiments. I enjoy clean composition, strong typography and small
+          interactions that make a website feel alive.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="about-grid">
+      <div>
+        <p class="section-number">A little about me</p>
+      </div>
+      <div class="about-copy">
+        <p>
+          I create social media designs, posters, banners, visual identities,
+          photographs and digital experiences. I'm especially interested in
+          combining photography with modern editorial design.
+        </p>
+        <p>
+          Outside of design, photography is one of my favorite ways to observe
+          people, places and everyday moments.
+        </p>
+      </div>
+    </section>
+
+    <section id="work" class="work-section">
+      <div class="section-heading">
+
+        <h2>Things I've made.</h2>
+      </div>
+
+      <div class="work-list">
+        <article class="work-card" data-title="Social Media Design" data-type="Design"
+          data-description="Campaign graphics, social posts and visual systems designed for digital platforms."
+          data-image="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=85">
+          <div class="work-image"><img src="assets/pic1.jpg" alt="Design project"></div>
+          <div class="work-info"><span>01</span>
+            <h3>Social Media Design</h3><span>Design ↗</span>
+          </div>
+        </article>
+
+        <article class="work-card" data-title="Poster & Banner" data-type="Visual Design"
+          data-description="Bold layouts and campaign visuals made to communicate quickly and clearly."
+          data-image="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=85">
+          <div class="work-image"><img src="assets/pic2.webp" alt="Poster project"></div>
+          <div class="work-info"><span>02</span>
+            <h3>Poster & Banner</h3><span>Visual ↗</span>
+          </div>
+        </article>
+
+        <article class="work-card" data-title="Visual Storytelling" data-type="Photography"
+          data-description="Photographic stories built around atmosphere, people, light and everyday moments."
+          data-image="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85">
+          <div class="work-image"><img src="assets/pic3.jpg" alt="Photography project"></div>
+          <div class="work-info"><span>03</span>
+            <h3>Visual Storytelling</h3><span>Photo ↗</span>
+          </div>
+        </article>
+
+        <article class="work-card" data-title="Digital Experiments" data-type="Web"
+          data-description="Small web experiments exploring interaction, typography and motion with basic HTML, CSS and JavaScript."
+          data-image="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85">
+          <div class="work-image"><img src="assets/pic4.webp" alt="Web project"></div>
+          <div class="work-info"><span>04</span>
+            <h3>Digital Experiments</h3><span>Web ↗</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="photography" class="photo-section">
+      <div class="section-heading photo-heading">
+
+        <h2>Looking at the world<br><em>one frame at a time.</em></h2>
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="street">Street</button>
+        <button class="filter" data-filter="landscape">Landscape</button>
+        <button class="filter" data-filter="mono">Monochrome</button>
+      </div>
+
+      <div class="photo-grid">
+        <figure class="photo-item" data-category="street">
+          <img src="assets/profile3.jpeg"
+            alt="Street photography">
+          <figcaption>Street / 01</figcaption>
+        </figure>
+        <figure class="photo-item" data-category="landscape">
+          <img src="assets/pic2.webp"
+            alt="Landscape photography">
+          <figcaption>Landscape / 02</figcaption>
+        </figure>
+        <figure class="photo-item" data-category="mono">
+          <img
+            src="assets/pic4.webp"
+            alt="Monochrome photography">
+          <figcaption>Monochrome / 03</figcaption>
+        </figure>
+        <figure class="photo-item" data-category="street">
+          <img src="assets/pic3.jpg"
+            alt="Street photography">
+          <figcaption>Street / 04</figcaption>
+        </figure>
+        <figure class="photo-item" data-category="landscape">
+          <img src="assets/pic1.jpg"
+            alt="Landscape photography">
+          <figcaption>Landscape / 05</figcaption>
+        </figure>
+        <figure class="photo-item" data-category="mono">
+          <img
+            src="assets/profile01.jpeg"
+            alt="Monochrome photography">
+          <figcaption>Monochrome / 06</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <div class="skills">
+        <span>Photoshop</span><span>Illustrator</span><span>Figma</span>
+        <span>Canva</span><span>HTML</span><span>CSS</span>
+        <span>JavaScript</span><span>Photography</span>
+        <span>Video</span><span>Visual Storytelling</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+
+      <h2>Have an idea?<br><em>Let's make something.</em></h2>
+      <a class="big-email" href="mailto:hello@example.com">mdtawhidulislamrabbi307@gmail.com ↗</a>
+      <div class="socials">
+        <a href="#" target="_blank">Instagram ↗</a>
+        <a href="#" target="_blank">Behance ↗</a>
+        <a href="#" target="_blank">GitHub ↗</a>
+        <a href="#" target="_blank">LinkedIn ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Tawhid</span>
+    <span>Made with HTML, CSS & JS</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal-content">
+      <img id="modalImage" src="" alt="">
+      <div class="modal-text">
+        <p id="modalType"></p>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
